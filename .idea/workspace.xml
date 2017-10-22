@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e90a27-3891-430c-9992-ea48ca48d2a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/muzi/xml/Dom4JParseXml.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/muzi/xml/XpathDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_web.iml" afterPath="$PROJECT_DIR$/java_web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/book" afterPath="$PROJECT_DIR$/src/book" />
     </list>
     <ignored path="java_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dom4JParseXml.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/muzi/xml/Dom4JParseXml.java">
+      <file leaf-file-name="XpathDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/muzi/xml/XpathDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/book">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/com/muzi/xml/SaxParseXml.java" />
         <option value="$PROJECT_DIR$/src/com/muzi/xml/Dom4JParseXml.java" />
         <option value="$PROJECT_DIR$/src/book" />
+        <option value="$PROJECT_DIR$/src/com/muzi/xml/XpathDemo.java" />
       </list>
     </option>
   </component>
@@ -239,27 +227,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Dom4JParseXml.update">
-    <configuration default="false" name="SaxParseXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.muzi.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.muzi.xml.SaxParseXml" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_web" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.XpathDemo">
     <configuration default="false" name="Dom4JParseXml.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -362,6 +330,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="XpathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.muzi.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.muzi.xml.XpathDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_web" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -779,19 +767,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SaxParseXml" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.read" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.add" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.delete" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.update" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.read" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.add" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.delete" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.update" />
+      <item index="4" class="java.lang.String" itemvalue="Application.XpathDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.update" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.delete" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.add" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.read" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SaxParseXml" />
+        <item index="0" class="java.lang.String" itemvalue="Application.XpathDemo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.update" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.delete" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.add" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Dom4JParseXml.read" />
       </list>
     </recent_temporary>
   </component>
@@ -809,7 +797,7 @@
       <workItem from="1507996642957" duration="9195000" />
       <workItem from="1508339853925" duration="5991000" />
       <workItem from="1508424480440" duration="2638000" />
-      <workItem from="1508427347587" duration="6218000" />
+      <workItem from="1508427347587" duration="7329000" />
     </task>
     <servers />
   </component>
@@ -846,7 +834,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26819000" />
+    <option name="totallyTimeSpent" value="27930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,7 +857,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30138445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30138445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1080,6 +1068,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muzi/xml/Dom4JParseXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/book">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1088,10 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/muzi/xml/Dom4JParseXml.java">
+    <entry file="file://$PROJECT_DIR$/src/com/muzi/xml/XpathDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
